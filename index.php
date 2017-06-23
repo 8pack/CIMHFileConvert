@@ -343,8 +343,8 @@ $conn->close();
 			}
 			var yearMonthDay = contents[2] + '-' + contents[3] + '-' + contents[4];
 			contents[2] = yearMonthDay;
-			contents.splice(3, 1);
-			contents.splice(4, 1);
+			//contents.splice(3, 1);
+			//contents.splice(4, 1);
 			var contentstemp = new Array();
 			contents.foreach(function thisfunc(item, index){
 				contentstemp.push(item);
