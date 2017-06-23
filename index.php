@@ -287,7 +287,6 @@ $conn->close();
 		var template = document.getElementById("template").value;
 		var next = document.getElementById("postchange");
 		
-		var cat;
 		var expressionNewLine = new RegExp("\n", "g");
 		var expressionComma = new RegExp(",", "g");
 		
